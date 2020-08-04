@@ -6,7 +6,7 @@
     <h3>Form Dosen</h3><hr>
     
    @include('layouts.alert')
-    <form action="/dosen/store" method="POST">
+    <form action="/dosen/store" method="POST"> 
    @csrf
     <div class="form-group row">
       <label for="kode_dosen" class="col-sm-12">kode dosen</label>

@@ -7,7 +7,7 @@
 @section('content')
     <h2> Master Data Dosen </h2>
     <p><a href="/dosen/create" class="btn btn-success btn-sm">Tambah</a></p>
-    @include('layouts.alert')
+    @include('layouts.alert') 
     
     <table class="table table-striped" id="dosen-table">
         <thead>

@@ -18,7 +18,7 @@ class CreateDosenTable extends Migration
             $table->string('nama_dosen', 100);
             $table->string('nidn', 10);
             $table->text('email');
-            $table->string('handphone', 12);
+            $table->string('handphone', 12); 
             $table->text('alamat'); 
             $table->timestamps();
         });

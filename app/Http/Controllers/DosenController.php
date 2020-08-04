@@ -20,7 +20,7 @@ class DosenController extends Controller
     public function dosen_list()
 
    {
-     $dosen = Dosen::all();
+     $dosen = Dosen::all(); 
      return Datatables::of($dosen)
              ->addIndexColumn()
              ->addColumn('action', function ($dosen) {

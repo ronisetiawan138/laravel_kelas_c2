@@ -6,5 +6,5 @@
 <a href="#" class="list-group-item list-group-item-action">Mata Kuliah</a>
 <a href="#" class="list-group-item list-group-item-action">Kerja Praktek</a>
 <a href="#" class="list-group-item list-group-item-action">Skripsi</a>
-</div>
+</div> 
 

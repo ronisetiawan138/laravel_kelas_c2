@@ -41,7 +41,7 @@
       <div class="col-sm-5">
         <input type="text" name="handphone" class="form-control"id="handphone" placeholder="Masukan nama dengan benar" value="{{ $dosen->handphone }}">
        @error('handphone')<small id="handphone" class="form-text textdanger">{{ $message }}</small>@enderror
-      </div>
+      </div> 
     </div>
     <div class="form-group row">
       <label for="nim" class="col-sm-12">Alamat</label>
