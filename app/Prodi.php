@@ -12,4 +12,4 @@ public function mahasiswa()
     {
     return $this->belongsTo('App\Mahasiswa','prodi','kode_prodi');
     }
-}
+} 

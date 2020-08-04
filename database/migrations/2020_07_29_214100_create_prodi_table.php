@@ -17,7 +17,7 @@ class CreateProdiTable extends Migration
             $table->integer('kode_prodi')->primary();
             $table->string('nama_prodi', 30);
             $table->string('kaprodi', 100);
-            $table->timestamps();
+            $table->timestamps(); 
             });
     }
 

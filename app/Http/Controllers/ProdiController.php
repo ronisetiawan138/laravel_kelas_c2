@@ -14,7 +14,7 @@ class ProdiController extends Controller
      */
     public function index()
     {
-        $list_prodi = prodi::all();
+        $list_prodi = prodi::all(); 
         return view('prodi.index', compact('list_prodi'));
     }
 

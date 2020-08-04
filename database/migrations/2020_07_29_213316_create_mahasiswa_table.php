@@ -19,7 +19,7 @@ class CreateMahasiswaTable extends Migration
             $table->integer('prodi');
             $table->text('alamat');
             $table->timestamps();
-            });
+            }); 
     }
 
     /**

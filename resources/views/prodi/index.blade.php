@@ -8,7 +8,7 @@
     <thead>
         <tr>
         <th>No</th>
-        <th>Kode Prodi</th>
+        <th>Kode Prodi</th> 
         <th>Nama Prodi</th>
         <th>Kaprodi</th>
         </tr>

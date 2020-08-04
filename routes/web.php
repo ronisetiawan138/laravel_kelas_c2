@@ -33,3 +33,5 @@ Route::post('/dosen/store', 'DosenController@store');
 Route::get('/dosen/edit/{kode_dosen}', 'DosenController@edit');
 Route::put('/dosen/update/{dosen:kode_dosen}', 'DosenController@update')->name('dosen.update');
 Route::get('/dosen/delete/{dosen:kode_dosen}', 'DosenController@destroy')->name('dosen.delete');
+//Prodi (Route Framework)
+Route::resource('/prodi', 'ProdiController');

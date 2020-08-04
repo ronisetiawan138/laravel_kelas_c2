@@ -19,7 +19,7 @@ public function mhs_list()
 {
     $mhs = Mahasiswa::with('mprodi')->get();
     return Datatables::of($mhs)
-    ->addIndexColumn()
+    ->addIndexColumn() 
     ->addColumn('action', function ($mhs) {
     $action = '<a class="text-success"
     href="/mhs/edit/'.$mhs->nim.'">Edit</a>';

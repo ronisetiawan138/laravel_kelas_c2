@@ -13,7 +13,7 @@ protected $fillable = ['nim','nama_lengkap','prodi','alamat'];
 //Field yang diabaikan isiannya
 protected $guarded = [];
 public function mprodi()
-{
+{ 
 return $this->hasOne('App\Prodi','kode_prodi','prodi');
 }
 }

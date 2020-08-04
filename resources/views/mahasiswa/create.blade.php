@@ -42,7 +42,7 @@ $message }}</small>@enderror
 <textarea name="alamat" class="form-control" id="alamat"></textarea>
 <small id="nama" class="form-text text-muted"></small>
 </div>
-</div>
+</div> 
 <button class="btn btn-success" type="submit">Simpan</button>
 <a href="{{ url()->previous() }}" class="btn btn-danger">Batal</a>
 </form>

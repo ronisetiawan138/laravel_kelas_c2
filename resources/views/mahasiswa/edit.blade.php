@@ -34,7 +34,7 @@
 @endforeach
 </select>
 <small id="nama" class="form-text text-muted"></small>
-</div>
+</div> 
 </div>
 <div class="form-group row">
 <label for="nim" class="col-sm-12">Alamat</label>
